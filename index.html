@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="flappy.css">
     <link href='https://fonts.googleapis.com/css?family=Fascinate|Erica+One' rel='stylesheet' type='text/css'>
 
+    <script src="navigation.js"></script>
     <script src="Simulation.js"></script>
     <script src="canvas.js"></script>
 
@@ -61,19 +62,21 @@
     <img class="obj rod_g1 rodinv" src="Sprites/rod.png"/>
     <img class="obj bird0 bird" src="Sprites/bird sad.png"/> -->
 
-    <div id="pause1" class="obj pause"></div>
+    <div id="pause1" class="obj pause">
+        <button class="hidden" onclick="screenHome()"></button>
+    </div>
 
     <div> 
-    <button id=cog1 type="button" class="obj settings">
+    <button id=cog1 type="button" class="obj settings" onclick="screenLead()">
         <span class="button icon"><ion-icon name="cog-outline"></ion-icon></span>
     </button>
     </div>
 
-    <div>
+    <!-- <div>
         <button id=play1 type="button" class="obj play">
             <span class="button icon"><ion-icon name="play-outline"></ion-icon></ion-icon></span>
         </button>
-    </div>
+    </div> -->
 
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

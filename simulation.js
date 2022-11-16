@@ -116,7 +116,7 @@ class BirdObject extends GameObject {
         this.pos[1] += this.vel[1]
 
         this.vel[1] += GRAVITY
-        console.log(this.pos[1], this.vel[1])
+        // console.log(this.pos[1], this.vel[1])
 
         // console.log("OBJ", screen.width*this.pos[0], screen.height*this.pos[1])
         
